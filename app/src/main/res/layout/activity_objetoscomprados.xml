@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/patron">
+
+
+
+        <ImageView
+            android:id="@+id/fotoObjeto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="6dip"
+            android:layout_marginBottom="7dp"
+            android:contentDescription="TODO"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/btn_star_big_on" />
+
+        <TextView
+            android:id="@+id/objetoComprado"
+            android:layout_width="144dp"
+            android:layout_height="104dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_toRightOf="@id/fotoObjeto"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="Example application"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,15 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#B6EAF3" /> <!-- color del fondo -->
+    <size android:width="6dp" android:height="6dp" /> <!-- tamaño de la figura del patrón -->
+    <corners android:radius="1dp" /> <!-- redondeo de las esquinas de la figura -->
+    <item>
+        <rotate
+            android:fromDegrees="45"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <solid android:color="#F8BBD0" /> <!-- color de la figura del patrón -->
+            </shape>
+        </rotate>
+    </item>
+</shape>

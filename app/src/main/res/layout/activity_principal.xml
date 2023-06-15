@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/patron">
+
+    <Button
+        android:id="@+id/btnRanking3"
+        android:layout_width="207dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FCE4EC"
+        android:text="Ranking"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bandejabtn" />
+
+    <Button
+        android:id="@+id/btnRanking2"
+        android:layout_width="207dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FCE4EC"
+        android:text="Ranking"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bandejabtn" />
+
+    <TextView
+        android:id="@+id/textMenuPrincipal"
+        android:layout_width="351dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="MENÚ PRINCIPAL"
+        android:textColor="#F478A2"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tienda"
+        style="?attr/materialIconButtonFilledTonalStyle"
+        android:layout_width="207dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FCE4EC"
+        android:text="Tienda"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empezarJuegobtn" />
+
+    <Button
+        android:id="@+id/denunciabtn"
+        style="?attr/materialIconButtonFilledTonalStyle"
+        android:layout_width="207dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FCE4EC"
+        android:text="Denuncia"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tienda" />
+
+    <Button
+        android:id="@+id/Bandejabtn"
+        android:layout_width="207dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FCE4EC"
+        android:text="Bandeja"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/denunciabtn" />
+
+    <Button
+        android:id="@+id/btnRanking"
+        android:layout_width="207dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FCE4EC"
+        android:text="Ranking"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bandejabtn" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="220dp"
+        android:background="@drawable/patron"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cerrarSesionBtn"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+    <Button
+        android:id="@+id/empezarJuegobtn"
+        android:layout_width="207dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FCE4EC"
+        android:text="Empezar Juego"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMenuPrincipal" />
+
+    <ImageButton
+        android:id="@+id/cerrarSesionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

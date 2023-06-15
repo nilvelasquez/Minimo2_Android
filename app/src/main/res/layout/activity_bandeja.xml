@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/patron">
+
+    <!-- A RecyclerView with some commonly used attributes -->
+    <TextView
+        android:id="@+id/titulo_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Bandeja mensajes"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bandeja_mensajes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/patron"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/titulo_faq"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/my_new_imageView_faq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="2dp"
+        android:src="@android:drawable/ic_menu_add" />
+
+    <ProgressBar
+        android:id="@+id/progressBarfaq"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

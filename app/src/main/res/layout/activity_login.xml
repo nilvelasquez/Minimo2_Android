@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/patron"
+    tools:context=".activities.LoginActivity">
+
+    <TextView
+        android:id="@+id/textMenuPrincipal"
+        android:layout_width="351dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#F478A2"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/mailAdd"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="72dp"
+        android:hint="correo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMenuPrincipal" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/passwordAdd"
+        android:layout_width="309dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="84dp"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mailAdd" />
+
+    <Button
+        android:id="@+id/entrarBtn"
+        style="?attr/materialIconButtonFilledTonalStyle"
+        android:layout_width="144dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FCE4EC"
+        android:onClick="login"
+        android:text="Entrar"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordAdd" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="¿Aun no te has registrado?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entrarBtn" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        style="?attr/materialIconButtonFilledTonalStyle"
+        android:layout_width="144dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FCE4EC"
+        android:text="Registrate"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

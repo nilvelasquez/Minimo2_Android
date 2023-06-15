@@ -1,0 +1,7 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Otros atributos de estilo de la aplicación -->
+    </style>
+
+    <color name="dividerColor">#FF000000</color>
+</resources>
